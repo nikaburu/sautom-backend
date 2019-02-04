@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="Sautom Rules" ToolsVersion="15.0">
+   <Rules AnalyzerId="Microsoft.CodeQuality.Analyzers" RuleNamespace="Microsoft.CodeQuality.Analyzers">
+    <Rule Id="CA1802" Action="Error" />
+    <Rule Id="CA1814" Action="Error" />
+    <Rule Id="CA1819" Action="Error" />
+    <Rule Id="CA1823" Action="Error" />
+    <Rule Id="CA2217" Action="Error" />
+    <Rule Id="CA2227" Action="Error" />
+  </Rules>
+</RuleSet>

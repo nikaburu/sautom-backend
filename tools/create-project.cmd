@@ -32,5 +32,5 @@ dotnet new --list
 set /p project_type="Enter project type: "
 
 rem Create project in solution
-dotnet new %project_type% -n %project% -o ..\src\%project%\
-dotnet sln ..\%solution%.sln add ..\src\%project%\%project%.csproj
+dotnet new %project_type% -n %project% -o ..\source\%project%\
+dotnet sln ..\%solution%.sln add ..\source\%project%\%project%.csproj
